@@ -225,6 +225,126 @@ font-weight: 800;
 }
 
 
+/* destination styles */
+.Destination{
+    text-align: center;
+    margin: 0 auto;
+}
+.des_title{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.dis_dis{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.image_container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.first_image{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+
+.first_image_title,
+.second_image_title,
+.third_image_title,
+.fourth_image_title,
+.fifth_image_title,
+.sixth_image_title,
+.seven_image_title{
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+position: relative;
+top: 45%;
+}
+
+.second_image{
+    width: 573px;
+    height: 300px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+
+.contaner,
+.last_container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px ;
+}
+.third_image{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+.fourth_image{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+
+.fifth_image{
+    width: 274px;
+height: 286px;
+border-radius: 16px;
+background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+}
+
+.sixth_image{
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+}
+
+
+
+.seven_image{
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -358,12 +478,11 @@ margin-left: -20px;
 .nice_btn{
     margin-top: 20px;
 }
-.simple_place_img{
+.funny_video{
     width: 610px;
     height: 400px;
-    background-image: url("../Images/Group\ 40089.png");
     border-radius: 16px;
-    margin-top: 40px;
+    margin-top: 55px;
 
 
 }
@@ -399,8 +518,52 @@ padding: 0 40px;
 width: 672px;
 height: 422px;
 background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+position: relative;
 
 }
+
+.child_div{
+ position: absolute;
+ width: 214.023px;
+height: 79.268px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 10.569px;
+background: #FF5400;
+text-align: center;
+top: 68%;
+left: 63%;
+padding: 13px;
+}
+
+.child_div p{
+color: #FFF;
+font-family: Mulish;
+font-size: 21.138px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
+.child_div h5{
+    color: #FFF;
+    margin-top: -10px;
+text-align: center;
+font-family: Mulish;
+font-size: 15.854px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+} 
+
+
+
+
+
+
 
 .main_titles{
     color: #131318;
@@ -582,7 +745,13 @@ line-height: normal;
     
    }
    .tour_text{
+    
     width: 0;
+   }
+
+   .tour_title{
+    font-size: 20px;
+    margin-left: 15px;
    }
 
    .tour_title,
@@ -658,5 +827,66 @@ line-height: normal;
    .conntainer{
     margin-top: -15px;
    }
+   .image_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first_image,
+.second_image{
+    width: 335px;
+
+   }
+   
+   .last_container,
+   .contaner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .seven_image,
+   .sixth_image,
+   .fifth_image,
+   .third_image,
+   .fourth_image{
+    width: 335px;
+    
+   }
+  
+
+   .funny_video{
+    width: 100%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 } 
