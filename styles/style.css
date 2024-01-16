@@ -331,11 +331,21 @@ background:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.2
 
 
 
+/* find now btn */
 
+input[type="button"]{
+    background-color: #FF5400;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 1s;
+    
+}
 
-
-
-
+input[type="button"]:hover{
+    background: dimgray;
+}
 
 
 
@@ -789,12 +799,12 @@ line-height: normal;
     margin-bottom: 20px;
    }
    .third_div{
-    width: 330px;
+    width: 291px;
    }
 
    .div_one,
    .div_two{
-    width: 335px;
+    width: 291px;
     margin: 0 auto;
    }
 
@@ -803,10 +813,12 @@ line-height: normal;
     flex-direction: column;
    }
 
+   .newsletter_img{
+    width: 356px;
+   }
    
-   .newsletter_img,
    .simple_place_img{
-    width: 400px;
+    width: 339px;
     margin-bottom: 20px;
    }
 
@@ -821,7 +833,7 @@ line-height: normal;
    }
 
    .form_container{
-    width: 380px;
+    width: 366px;
     padding: 10px;
    }
 
@@ -909,8 +921,4 @@ input[type="text"]{
 [type="submit"]{
  margin-top: 26px;
 }
-
-
-
-
-
+}
