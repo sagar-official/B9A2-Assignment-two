@@ -886,28 +886,31 @@ line-height: normal;
 
 
 
+.form_container
+input[type="text"],[type="submit"]{
+    width: 300px;
+    margin-left: 45px;
+    
+}
+.form_container
+input[type="text"]{
+    margin-bottom: 30px;
+
+}
+.main_titles,
+.another {
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.common_text{
+    margin-bottom: 20px;
+}
+.form_container
+[type="submit"]{
+ margin-top: 26px;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} 
