@@ -84,7 +84,7 @@ line-height: normal;
     width: 1170px;
     height: 500px;
     border-radius: 16px;
-    background-image:linear-gradient(180deg,#060607 0%, rgba(19, 4, 47, 0) 100%),url(/Images/banner.png);
+    background-image: linear-gradient(180deg, #060607 0%, rgba(19, 4, 47, 0) 100%), url('../Images/banner.png');
     border-radius: 16px;
     margin:  0 auto;
     
@@ -859,8 +859,10 @@ line-height: normal;
     width: 100%;
    }
 
-
-
+.child_div{
+    width: 159.023px;
+    left: 47%;
+}
 
 
 
