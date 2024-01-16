@@ -687,7 +687,7 @@ line-height: normal;
 }
 
 .hero_traveler{
-color: var(--Dark-01, #131318);
+color: #131318;
 font-family: Mulish;
 font-size: 32px;
 font-style: normal;
@@ -701,9 +701,9 @@ line-height: normal;
 
 
 
-
-
-
+.conntainer{
+    padding-top: 50px;
+}
 
 
 
@@ -942,5 +942,10 @@ input[type="text"]{
     margin-left: -25px;
 }
 
+
+..conntainer{
+    margin: 0 auto;
+    margin-bottom: 0;
+}
 
 }
