@@ -610,9 +610,53 @@ line-height: normal;
     gap: 20px;
     margin-bottom: 20px;
    }
-   .div_one,
-   .div_two,
    .third_div{
-    width: 303px;
+    width: 330px;
    }
+
+   .div_one,
+   .div_two{
+    width: 335px;
+    margin: 0 auto;
+   }
+
+   .simple_place{
+    margin: 0;
+    flex-direction: column;
+   }
+
+   
+   .newsletter_img,
+   .simple_place_img{
+    width: 400px;
+    margin-bottom: 20px;
+   }
+
+   .center_text{
+    text-align: center;
+   }
+
+   .Newsletter{
+    flex-direction: column;
+    margin: 0;
+    
+   }
+
+   .form_container{
+    width: 380px;
+    padding: 10px;
+   }
+
+   .another{
+    margin-left: 10px;
+    
+   }
+
+   .newsletter_img{
+    margin-top: -50px;
+   }
+   .conntainer{
+    margin-top: -15px;
+   }
+
 } 
