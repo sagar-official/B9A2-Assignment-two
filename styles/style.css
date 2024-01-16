@@ -921,4 +921,26 @@ input[type="text"]{
 [type="submit"]{
  margin-top: 26px;
 }
+
+
+
+
+.nav_container{
+    display: flex;
+    gap: 30px;
+    background: url(../Images/icon/Frame.png) no-repeat right;
+    justify-content: space-between;
+}
+
+
+.nav_text ol{
+    display: none;
+}
+
+
+.nav_icon{
+    margin-left: -25px;
+}
+
+
 }
