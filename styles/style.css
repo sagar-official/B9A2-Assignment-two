@@ -689,6 +689,15 @@ line-height: normal;
     padding-right: 5px;
 }
 
+
+
+
+
+
+
+
+
+
 /* 
 /* responsive fo small devices */
 @media screen and (max-width:576px){
@@ -853,17 +862,27 @@ line-height: normal;
     width: 335px;
     
    }
-  
+   .form_container,
+   .simple_place_img{
+    width: 379px;
 
-   .funny_video{
-    width: 100%;
+    
    }
+   .funny_video{
+    text-align: center;
+    width: 100%;
+    margin-left: 8px;
+   }
+
 
 .child_div{
     width: 159.023px;
     left: 47%;
 }
 
+.newsletter_img{
+    width: 396px;
+}
 
 
 
