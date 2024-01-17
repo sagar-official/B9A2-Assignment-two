@@ -760,7 +760,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px;
-margin-top: 40px; /* 162.5% */
+margin-top: 40px; 
+padding-top: 20px;/* 162.5% */
 }
 
 
@@ -1107,6 +1108,27 @@ input[type="text"]{
 p.tour_first_dis {
     margin-left: 20px;
 }
+
+.last_title{
+    margin-top: 24px;
+}
+
+
+.conntainer {
+    margin-top: 18px;
+    width: 298px;
+    height: 324px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+
+.simple_container {
+    padding: 30px;
+}
+
 
 
 
