@@ -570,7 +570,7 @@ line-height: normal;
 
 .simple_place{
     display: flex;
-    gap: 20px;
+    gap: 60px;
     margin: 50px 135px;
     
     
@@ -609,7 +609,7 @@ margin-left: -20px;
 }
 .funny_video{
     width: 610px;
-    height: 400px;
+    height:550px;
     border-radius: 16px;
     margin-top: 55px;
 
