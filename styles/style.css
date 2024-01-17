@@ -47,7 +47,7 @@
 }
 
 .komola_color{
-    color: #FF5400;
+color: #FF5400;
 text-align: center;
 font-family: Mulish;
 font-size: 18px;
@@ -214,6 +214,12 @@ border: 0;
 color: white;
 font-size: 20px;
 font-weight: 800;
+transition: 1s;
+}
+
+
+.primary_btn:hover{
+    background-color: cadetblue;
 }
 
 
@@ -340,6 +346,7 @@ input[type="button"]{
     font-size: 20px;
     font-family: sans-serif;
     transition: 1s;
+    text-align: center;
     
 }
 
@@ -419,13 +426,10 @@ margin-top: 24px;
 
 
 /* discount styles */
-
-.discounts{
-    text-align: center;
-    margin-top: 70px;
+.deals_discount{
+text-align: center;
 }
-
-.Discounts_title{
+.discouts_title{
 color: #131318;
 text-align: center;
 font-family: Mulish;
@@ -435,17 +439,131 @@ font-weight: 800;
 line-height: normal;
 }
 
-
-.discount_dis{
+.deals_dis{
 color: rgba(19, 19, 24, 0.70);
 text-align: center;
+font-family: Mulish;
+font-size: 16px;
+margin-top: -15px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.first_banner{
+width: 1170px;
+height: 500px;
+border-radius: 16px;
+background: url('../Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
+margin: 0 auto;
+position: relative;
+}
+
+
+.second_banner{
+width: 1170px;
+height: 500px;
+border-radius: 16px;
+background: url('../Images/Rectangle\ 12.png'), lightgray 50% / cover no-repeat;
+margin: 40px auto;
+position: relative;
+}
+
+
+.third_banner{
+width: 1170px;
+height: 500px;
+border-radius: 16px;
+background: url('../Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
+margin: 0px auto;
+position: relative;
+}
+
+
+.first_child_div{
+width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: absolute;
+top: 50px;
+left: 490px;
+}
+.second_child_div{
+width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: absolute;
+top: 50px;
+right: 490px;
+}
+.third_child_div{
+width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: absolute;
+top: 50px;
+left: 490px;
+}
+
+.icon_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text_container{
+    text-align: left;
+    margin-left: 90px;
+}
+
+.commonh2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+.commonp{
+width: 452px;
+color: #5A5A5D;
 font-family: Mulish;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
-margin-top: -10px;
 }
+
+.common_price{
+color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* simple place styles*/
 
@@ -617,18 +735,6 @@ font-weight: 800;
     padding-left: 25px;
 }
 
- /* .newsletter_img{
-position: absolute;
-width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-flex-shrink: 0;
-border-radius: 16px;
-background: #FF5400;
-}
- 
-
- */
 
 
 .conntainer{
@@ -702,8 +808,57 @@ line-height: normal;
 
 
 .conntainer{
-    padding-top: 50px;
+    padding: 50px ;
+
 }
+
+.icon_btn{
+    position: relative;
+    
+   
+}
+
+.font_awesome_icon{
+    position: absolute;
+    font-size: 17px;
+    top: 15px;
+    left: 15px;
+    padding-left: 1px;
+    color: white;
+}
+
+
+.common_text{
+    margin-left: -2px;
+}
+
+
+.second_dis{
+    margin-left: -17px;
+}
+
+button.primary_btn {
+    margin-left: 20px;
+}
+
+.common_text_none{
+    margin-left: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -900,8 +1055,8 @@ line-height: normal;
 
 .form_container
 input[type="text"],[type="submit"]{
-    width: 300px;
-    margin-left: 45px;
+    width: 337px;
+    margin-left: 23px;
     
 }
 .form_container
@@ -911,7 +1066,7 @@ input[type="text"]{
 }
 .main_titles,
 .another {
-    margin-left: 50px;
+    margin-left: 32px;
     margin-bottom: 0px;
 }
 .common_text{
@@ -943,9 +1098,16 @@ input[type="text"]{
 }
 
 
-..conntainer{
-    margin: 0 auto;
-    margin-bottom: 0;
+.conntainer{
+   
+ width: 298px;
+ height: 400px;
 }
+
+p.tour_first_dis {
+    margin-left: 20px;
+}
+
+
 
 }
