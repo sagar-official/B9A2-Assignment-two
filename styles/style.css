@@ -202,7 +202,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
-margin-left: -40px;
+
 }
 
 .primary_btn{
@@ -215,6 +215,7 @@ color: white;
 font-size: 20px;
 font-weight: 800;
 transition: 1s;
+
 }
 
 
@@ -830,7 +831,7 @@ line-height: normal;
 
 
 .common_text{
-    margin-left: -2px;
+    margin-left: -20px;
 }
 
 
@@ -890,6 +891,8 @@ button.primary_btn {
    
     .banner_dis{
        font-size: 18px;
+       font-weight: 400;
+        line-height: 21px;
     }
      .banner_class img{
         width: 100%;
@@ -1072,6 +1075,7 @@ input[type="text"]{
 }
 .common_text{
     margin-bottom: 20px;
+    margin-left: -2px;
 }
 .form_container
 [type="submit"]{
